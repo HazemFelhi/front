@@ -1,0 +1,57 @@
+<!-- <div class="container">
+    <div class="row mt-4">
+        <h4><b>Nos services</b></h4>
+        <div class="mt-4">
+            <div class="container">
+                <div class="row">
+                  <nav class="navbar navbar-expand ">
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                      <div class="navbar-nav" >
+                        <a class="nav-link " *ngFor="let cat of categories" (click)="filterData(cat)" >{{cat.title}}</a>
+                      </div>
+                    </div>
+                  </nav>
+                </div>
+              </div>
+    </div>
+</div>
+<div class="row ">
+    <div class="col-md-3">
+        <div class=" mt-5" *ngFor="let ser of allSer">
+            <div class="text-center">
+                <img src="{{ ser.imageUrl}}" alt="service-img" class="ser-img">
+                <h6 class="mt-3"><b>{{ ser.name}}</b></h6>
+                <p>{{ser.description}}</p>
+                <p class="voir">Voir →</p>
+            </div>
+          </div>
+    </div>
+</div>
+</div>
+ -->
+ <div class="container">
+<h4 class="mt-4"><b>Nos services</b></h4>
+<div class="container mt-4">
+    <div class="row">
+        <nav class="navbar navbar-expand ">
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav" >
+                <a class="nav-link " *ngFor="let cat of categories" (click)="filterData(cat)" >{{cat.title}}</a>
+              </div>
+            </div>
+          </nav>
+    </div>
+    <div class="d-flex justify-content-start mb-5" >
+        <div *ngFor="let service of allSer">
+            <div class=" mt-5">
+                <div class="text-center">
+                    <img src="{{ service.imageUrl}}" alt="service-img" class="ser-img">
+                    <h6 class="mt-3"><b>{{ service.name}}</b></h6>
+                    <p>{{service.description}}</p>
+                    <p class="voir">Voir →</p>
+                </div>
+              </div>
+        </div>
+    </div>
+</div>
+ </div>

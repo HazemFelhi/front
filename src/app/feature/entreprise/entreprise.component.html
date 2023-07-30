@@ -1,0 +1,101 @@
+<!-- Sidebar -->
+<nav id="sidebarMenu" class="collapse d-lg-block sidebar collapse ">
+    <div class="position-sticky"> 
+        <div class="list-group list-group-flush mx-3 mt-4">
+            <div class="col-1 col-md-auto border-bottom" >
+                <img  class="logo0 " id="logoi" src="assets/logol.png" width="15px" >
+                <p id="logon" class="mt-0">Cumulus</p>
+                </div>
+        </div>
+        <div class="list-group list-group-flush mx-3 mt-4 background">
+            <a href="#" class="list-group-item list-group-item-action py-2 ripple" aria-current="true">
+                <i class="fas fa-tachometer-alt fa-fw me-3"></i><span class="span-color">Dashboard</span>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action py-2 ripple ">
+                <i class="fas fa-chart-area fa-fw me-3"></i><span class="span-color">Profil entreprise</span>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action py-2 ripple"><i
+                    class="fas fa-lock fa-fw me-3"></i><span class="span-color">Membres</span></a>
+            <a href="#" class="list-group-item list-group-item-action py-2 ripple"><i
+                    class="fas fa-chart-line fa-fw me-3"></i><span class="span-color">Support</span></a>
+            <a href="#" class="list-group-item list-group-item-action py-2 ripple">
+                <i class="fas fa-chart-pie fa-fw me-3"></i><span class="span-color">Historique</span>
+            </a>
+        </div>
+    </div>
+</nav>
+<!-- Sidebar -->
+
+<main style="margin-top: 58px; margin-left: 200px;">
+    <div class="container pt-4">
+        <div class="row mx-5 border-bottom">
+            <h4><b>Vos données</b></h4>
+        </div>
+        <div class="row mt-4 mx-5" style=" margin-left: 200px;">
+            <div class="col-md-4 mt-2">
+                <img src="assets/logoOTBS.svg" alt="logo-entreprise">
+                <h4 class="mt-4"><b>Nom</b></h4>
+                <p>OneTech B.S</p>
+                <h4><b>Email</b></h4>
+                <p>OneTech B.S@gmail.com</p>
+            </div>
+            <div class="col-md-4 mt-2">
+                <h4><b>Nombre d’employés</b></h4>
+                <p>150</p>
+                <h4><b>Numéro</b></h4>
+                <p>+216 58 544 025</p>
+                <h4><b>Fixe</b></h4>
+                <p>+216 71 788 907</p>
+            </div>
+            <div class="col-md-4 mt-2">
+                <div class="d-flex justify-content-evenly mx-5 ms-0">
+                    <h4><b>Pays</b></h4>
+                    <h4><b>Ville</b></h4>
+                </div>
+                <div class="d-flex justify-content-evenly mx-5 ms-0">
+                    <p>Tunisie</p>
+                    <p>Ariana</p>
+                </div>
+                <h4><b>Adresse</b></h4>
+                <p>Charguia I, Rue des entrepreneurs</p>
+                <h4><b>Code postal</b></h4>
+                <p>2345</p>
+            </div>
+        </div>
+        <div class="row mt-4 mx-5" style=" margin-left: 200px;">
+         <div class="col-md-4 mt-4 border-end">
+            <h4><b>Ajouter vos documents</b></h4>
+            <input type="text" name="" id="" class="mt-4 email p-2 input" placeholder="Titre document*"> 
+            <input type="file" name="" id="" class="mt-4  p-2 input file" >  <br>
+            <div class="mt-4">
+                <app-button content="Ajouter" ></app-button>
+            </div>
+         </div>
+         <div  class="col-md-4 mt-4 border-end">
+            <h4><b>Les document nécessaires</b></h4>
+            <div class="d-flex justify-content-evenly mx-5 ms-0">
+                <p>Titre doc°</p>
+                <p>Titre doc°</p>
+            </div>
+            <div class="d-flex justify-content-evenly mx-5 ms-0">
+                <p>Manquant</p>
+                <p>Rejeté</p>
+            </div>
+            <div class="d-flex justify-content-evenly mx-5 ms-0">
+                <p>Titre doc°</p>
+                <p>Titre doc°</p>
+            </div>
+            <div class="d-flex justify-content-evenly mx-5 ms-0">
+                <p>En cours</p>
+                <p>Validé</p>
+            </div>
+         </div>
+         <div class="col-md-4 mt-4 text-center">
+            <h6>Complétude des documents</h6>
+            <div>
+                <canvas id="myChart1"  ></canvas> 
+            </div>
+         </div>
+        </div>
+    </div>
+  </main>

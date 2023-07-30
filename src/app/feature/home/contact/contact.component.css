@@ -1,0 +1,39 @@
+h5 {
+    color: #397BFF;
+    font-weight: bold;
+   }
+   li {
+    list-style: none;
+   }
+   .email {
+    background-color: transparent; 
+    border: 1px solid #989898;
+   border-radius: 5px;
+   width: 100%;
+  }
+  .selectb {
+    width:220px;
+  }
+  .outer-div
+  {
+    padding: 30px;
+  
+  }
+
+.nom-entr {
+  background-color: transparent; 
+  border: 1px solid #989898;
+ border-radius: 5px;
+ width: 72%;
+ 
+}  
+.descrip {
+  background-color: transparent; 
+  border: 1px solid #989898;
+ border-radius: 5px;
+ width: 72%;
+
+}  
+.envoyer-button {
+  margin-left: -20%!important;
+}

@@ -1,0 +1,25 @@
+.cnnt {
+    color: #397BFF;
+    font-weight: bold;
+  }
+  .outer-div
+  {
+    padding: 30px;
+  
+  }
+  .inner-div
+  {
+    margin: 0 auto;
+    width: max-content;
+    height: max-content;
+  }
+  .email {
+    background-color: transparent; 
+    border: 1px solid #989898;
+   border-radius: 5px;
+  }
+  .selectb {
+    width:220px;
+    color:gray;
+
+  }

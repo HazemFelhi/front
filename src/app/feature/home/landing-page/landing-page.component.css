@@ -1,0 +1,27 @@
+h5 {
+color: #397BFF;
+font-weight: bold;
+}
+.header-img {
+    width: 100%;
+}
+.pqc {
+ aspect-ratio: 3/2;
+ object-fit: contain;   
+ width: 70%;
+} 
+.en-savoir-plus {
+    transform: rotate(90deg);
+    cursor: pointer;
+}
+.ser-img {
+    aspect-ratio: 3/2;
+    object-fit: contain;   
+    width: 50%;  
+}
+.voir {
+    color:#397BFF;
+    cursor: pointer;
+    font-size: 20px;
+
+}

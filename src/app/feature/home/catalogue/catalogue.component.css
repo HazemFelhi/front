@@ -1,0 +1,11 @@
+.ser-img {
+    aspect-ratio: 3/2;
+    object-fit: contain;   
+    width: 50%;  
+}
+.voir {
+    color:#397BFF;
+    cursor: pointer;
+    font-size: 20px;
+
+}

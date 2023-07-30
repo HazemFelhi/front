@@ -1,0 +1,21 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+    margin: 0;
+    Overflow-x: hidden;
+    transition: 0.5s;
+    background: #F3F3F3;
+    color: #030911;   
+}
+@font-face {
+    font-family: 'SF Pro';
+    src: url("/assets/SF pro/SF-Pro.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  h5 {
+    color: #397BFF;
+    font-weight: bold;
+   }
+   .header-img {
+    width: 100%;
+}

@@ -1,0 +1,13 @@
+button {
+    background-color:transparent;
+    border: solid 1px #397BFF;
+    border-radius: 5px;
+    color: #397BFF ;
+
+}
+button:hover {
+    color: #F3F3F3 ;
+    background-color: #397BFF ;
+    border: none;
+    border-radius: 5px;
+}

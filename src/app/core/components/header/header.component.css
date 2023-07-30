@@ -1,0 +1,114 @@
+div {
+    right: 0px;
+    left: 0px;
+  }
+  
+  body,
+  div,
+  p {
+    box-sizing: border-box;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+
+  
+  /* navbar*/
+  .navbar-toggler {
+    background-color:#b3b3b346;
+  }
+
+  
+  #logoi {
+    float: left;
+    padding-top: 8px;
+  }
+  
+  #logon {
+    font-size: 21px;
+    padding-left: 25px;
+    font-weight: bold;
+    margin-top: 0.3rem;
+  }
+  
+  .nav-link {
+    padding: 8px;
+    margin-right: 20px;
+    text-decoration: none;
+    font-weight: 400;
+    color: #030911;
+  }
+  
+  .nav-color {
+    color: #030911;
+  }
+  
+  @media (max-width: 542px) {
+    .nav-link1::after {
+      border: none !important;
+    }
+  }
+  
+  @media (max-width:990px) {
+    .nav-link1::after {
+      width: 20% !important;
+    }
+  }
+  
+  .nav-link1::after {
+    display: block;
+    content: '';
+    border-bottom: solid 1px #030911;
+    transform: scaleX(0);
+    transition: transform 250ms ease-in-out;
+  }
+  
+  .nav-link1:after {
+    transform-origin: 0% 50%;
+  }
+  
+  .nav-link1:hover:after {
+    transform: scaleX(1);
+    transform-origin: 100% 50%;
+  }
+  
+  .navbar a:hover {
+    color: #030911;
+  }
+  
+  .form-control {
+    background-color: transparent;
+    border-radius: 5px;
+  }
+  .form-control:focus {
+    background-color: transparent;
+    border-radius: 5px;
+  }
+  .dropdown {
+    margin-right: 5rem;
+    margin-top: 0.7rem;
+  }
+  option {
+    background-color: #F3F3F3;
+  }
+  .connexion-button  {
+    cursor: pointer;
+  }
+  .inscription-button {
+    color: #F3F3F3 ;
+    background-color: #397BFF ;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .inscription-button:hover {
+    color: #397BFF  ;
+    border:1px solid #397BFF ;
+    border-radius: 5px;
+    background-color:transparent;
+  }
+
+
+

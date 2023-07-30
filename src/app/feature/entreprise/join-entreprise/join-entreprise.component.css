@@ -1,0 +1,13 @@
+.email {
+    background-color: transparent; 
+    border: 1px solid #989898;
+   border-radius: 5px;
+  }
+  a {
+    cursor: pointer;
+  }
+  h5 {
+    color: #397BFF;
+    font-weight: bold;
+  }
+  

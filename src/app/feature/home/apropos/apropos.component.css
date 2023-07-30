@@ -1,0 +1,20 @@
+.apropos-img {
+    aspect-ratio: 3/2;
+    object-fit: contain;   
+    width: 70%;
+}
+.mt-img {
+    aspect-ratio: 3/2;
+    object-fit: contain;   
+    width: 14%; 
+}
+h5 {
+    color: #397BFF;
+    font-weight: bold;
+   }
+   .voir {
+    color:#397BFF;
+    cursor: pointer;
+    font-size: 20px;
+
+}
